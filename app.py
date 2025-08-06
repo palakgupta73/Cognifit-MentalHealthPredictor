@@ -13,7 +13,7 @@ model = tf.keras.models.load_model("stress_model.h5")
 scaler = joblib.load("scaler.pkl")     # Save the StandardScaler after fitting
 
 # Page Title
-st.title("🧠 Cognifit: Mental Health Predictor")
+st.title("🧠Cognifit: Mental Health Predictor")
 st.write("This app predicts your mental health stress level based on lifestyle and health factors.")
 
 # User Inputs
