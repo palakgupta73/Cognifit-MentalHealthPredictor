@@ -6,7 +6,3 @@ keras
 tensorflow
 matplotlib
 joblib
-tensorflow-cpu==2.15.0
-
-
-
